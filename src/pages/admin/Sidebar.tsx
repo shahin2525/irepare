@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <aside className="bg-light-gray col-span-2 sticky overflow-auto h-screen top-0 left-0 p-3 lg:p-5">
-      <nav className="flex flex-col">
+      <nav className="flex flex-col gap-3">
         <NavLink
           className={({ isActive }) =>
             cn(
